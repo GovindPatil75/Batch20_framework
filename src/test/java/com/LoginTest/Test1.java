@@ -19,9 +19,9 @@ public class Test1 extends BaseClass{
 		String EmailData=excel.getStringData_Excel("Login", 0, 0);
 		String PwdData=excel.getStringData_Excel("Login", 0, 1);
 		
-		Library.custom_SendKeys(login.getTxt_Email(), EmailData);
-		Library.custom_SendKeys(login.getTxt_Password(), PwdData);
-		Library.custom_Click(login.getBtn_login());
+		Library.custom_SendKeys(login.getTxt_Email(), EmailData,"Email");
+		Library.custom_SendKeys(login.getTxt_Password(), PwdData,"Password");
+		Library.custom_Click(login.getBtn_login() ,"Login Button");
 		
 		String ActualTitle=driver.getTitle(); //
 		String ExpectedTitle="ABC";

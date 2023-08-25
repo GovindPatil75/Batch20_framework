@@ -11,24 +11,33 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 public class Library {
+	
+	public static ExtentTest test;
 
 	 // Sendkeys actions on Element 
-	public static void custom_SendKeys(WebElement element,String value) {
+	public static void custom_SendKeys(WebElement element,String value,String fieldname) {
 		try {
 		   element.sendKeys(value);
+		   test.log(Status.PASS, fieldname+"==Value succefully Send=="+value);
 		}catch(Exception e) {
-			System.out.println(e.getMessage());
+			test.log(Status.FAIL, e.getMessage());
+			
 		}
 	}
 	
 	//Click on Element 
-	public static void custom_Click(WebElement element) {
+	public static void custom_Click(WebElement element,String Fieldname) {
 	
 		try {
 		element.click();
+		test.log(Status.PASS, Fieldname+"==clicked succefully ");
 		}catch(Exception e) {
-			System.out.println(e.getMessage());
+			test.log(Status.FAIL, e.getMessage());
+			
 		}	
 	}
 	
