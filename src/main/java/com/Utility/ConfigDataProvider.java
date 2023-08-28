@@ -21,4 +21,7 @@ public class ConfigDataProvider {
 		return pro.getProperty("BaseUrl");
 	}
 
+	public String getAniketUrl() {
+		return pro.getProperty("AniketUrl");
+	}
 }
