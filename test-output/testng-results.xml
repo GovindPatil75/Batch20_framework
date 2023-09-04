@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2023-08-27T00:05:27 IST" name="Suite" finished-at="2023-08-27T00:06:26 IST" duration-ms="58845">
-    <groups>
-    </groups>
-    <test started-at="2023-08-27T00:05:27 IST" name="Test" finished-at="2023-08-27T00:06:26 IST" duration-ms="58845">
-      <class name="com.LoginTest.Test_Salar">
-        <test-method signature="framworkFlow()[pri:0, instance:com.LoginTest.Test_Salar@4b86805d]" started-at="2023-08-27T00:06:26 IST" name="framworkFlow" finished-at="2023-08-27T00:06:26 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- framworkFlow -->
-      </class> <!-- com.LoginTest.Test_Salar -->
-      <class name="com.LoginTest.Test2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LoginTest.Test2@238d68ff]" started-at="2023-08-27T00:06:22 IST" name="setUp" finished-at="2023-08-27T00:06:26 IST" duration-ms="3953" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginTest_2()[pri:0, instance:com.LoginTest.Test2@238d68ff]" started-at="2023-08-27T00:06:26 IST" name="verifyLoginTest_2" finished-at="2023-08-27T00:06:26 IST" duration-ms="213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginTest_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.Test2@238d68ff]" started-at="2023-08-27T00:06:26 IST" name="tearDown" finished-at="2023-08-27T00:06:26 IST" duration-ms="1" status="PASS">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.LoginTest.Test2 -->
-      <class name="com.LoginTest.Test1">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.LoginTest.Test1@7fd7a283]" started-at="2023-08-27T00:05:27 IST" name="initialization" finished-at="2023-08-27T00:05:27 IST" duration-ms="832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LoginTest.Test1@7fd7a283]" started-at="2023-08-27T00:05:27 IST" name="setUp" finished-at="2023-08-27T00:06:18 IST" duration-ms="50874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.LoginTest.Test1@7fd7a283]" started-at="2023-08-27T00:06:18 IST" name="verifyLogin" finished-at="2023-08-27T00:06:22 IST" duration-ms="3318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.Test1@7fd7a283]" started-at="2023-08-27T00:06:22 IST" name="tearDown" finished-at="2023-08-27T00:06:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.LoginTest.Test1 -->
-    </test> <!-- Test -->
+      </class> <!-- com.LoginTest.Test_Aniket_Jambaldare -->
+    </test> <!-- AddToCart -->
   </suite> <!-- Suite -->
 </testng-results>
