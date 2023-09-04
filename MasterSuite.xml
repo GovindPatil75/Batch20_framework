@@ -8,6 +8,7 @@
   <classes>
   <class name="com.LoginTest.Test1"></class>
   <class name="com.LoginTest.Test2"></class>
+  <class name="com.LoginTest.Test_Salar"></class>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
