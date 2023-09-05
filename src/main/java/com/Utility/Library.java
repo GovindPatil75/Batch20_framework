@@ -2,6 +2,7 @@ package com.Utility;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -9,7 +10,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -81,6 +84,12 @@ public class Library {
 		
 	}
 	
-	
+	public static WebDriverWait ExplictWait(WebDriver driver,long time) {
+		
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(time));
+		return wait;
+		
+		
+	}
 	
 }
