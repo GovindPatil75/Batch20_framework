@@ -4,11 +4,9 @@
 <listeners>
 <listener class-name="com.Utility.TestListener"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="AddToCart">
   <classes>
-  <class name="com.LoginTest.Test1"></class>
-  <class name="com.LoginTest.Test2"></class>
-  <class name="com.LoginTest.Test_Salar"></class>
+  <class name="com.LoginTest.Test_Aniket_Jambaldare"></class>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

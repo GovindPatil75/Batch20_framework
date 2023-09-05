@@ -15,6 +15,9 @@ public class LoginPom {
 	@FindBy(how=How.XPATH,using="//button[@name='login']")
 	private WebElement btn_login;
 	
+	@FindBy(how=How.XPATH,using="//a[text()='Forgotten password?']")
+	private WebElement link_fogotten_Password;
+	
 
 	public WebElement getTxt_Email() {
 		return txt_Email;
@@ -26,6 +29,14 @@ public class LoginPom {
 
 	public WebElement getBtn_login() {
 		return btn_login;
+	}
+//	public WebElement getForgotten_Password() {
+//		return link_fogotten_Password;
+//	}
+
+	public WebElement getForgotten_Password() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

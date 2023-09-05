@@ -32,6 +32,15 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		
 	}
+	@BeforeMethod
+    public void setUpAniket() {
+		
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.get(config.getAniketUrl());
+		driver.manage().window().maximize();
+		
+	}
 
 	@AfterMethod
 	public void tearDown() {

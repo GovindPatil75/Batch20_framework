@@ -44,10 +44,10 @@ public class TestListener extends BaseClass implements ITestListener {
 		extent.flush();
 	}
 	
-	public static String getCapture() {
-		
-		TakesScreenshot ts=(TakesScreenshot) driver;
-		return ts.getScreenshotAs(OutputType.BASE64);
-	}
-
+	
+	  public static String getCapture() {
+	  
+	  TakesScreenshot ts=(TakesScreenshot) driver; return
+	  ts.getScreenshotAs(OutputType.BASE64); }
+	 
 }
